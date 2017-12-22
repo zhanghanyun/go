@@ -164,7 +164,7 @@ func len(v Type) int
 func cap(v Type) int
 
 // The make built-in function allocates and initializes an object of type
-// slice, map, or chan (only). Like new, the first argument is a type, not a
+// slice, map, or channel (only). Like new, the first argument is a type, not a
 // value. Unlike new, make's return type is the same as the type of its
 // argument, not a pointer to it. The specification of the result depends on
 // the type:
